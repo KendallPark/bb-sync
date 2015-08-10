@@ -1,5 +1,5 @@
 # BBSync
-Ruby Scraper for Mizzou Med School Blackboard content.
+Ruby scraper for Mizzou Med School Blackboard content.
 
 ## OS Support
 - Mac OSX
@@ -18,7 +18,7 @@ Sorry, Mac-only support right now. I don't have a Windows machine to test this o
 5. Double click `bbsync`.
 6. Head over to your `Documents` folder and watch in amazement as BBSync downloads all of your course materials from Blackboard.
 
-Whenever you need to get more content, just double-click `bbsync` again. BBSync will automatically download new content. :)
+Whenever you need to get new Blackboard content, just double-click `bbsync` again. BBSync will automatically download new content (older content will not be overwritten). :)
 
 ## Troubleshooting
 Please submit any issues [here](https://github.com/KendallPark/bb-sync/issues).
