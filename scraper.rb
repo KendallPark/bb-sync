@@ -51,6 +51,7 @@ class Scraper
         downloaded_file = @@mechanize.get(File.join(ROOT_URL, url))
         file_ext = downloaded_file.filename[/\.[^.]*$/]
         save_path = File.join(save_dir, *dir_array, "#{content_title}#{file_ext}")
+        puts "Saving #{content_title} to #{save_dir}"
         downloaded_file.save!(save_path)
       end
 
