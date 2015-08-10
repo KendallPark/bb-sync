@@ -21,4 +21,11 @@ Sorry, Mac-only support right now. I don't have a Windows machine to test this o
 Whenever you need to get more content, just double-click `bbsync` again. BBSync will automatically download new content. :)
 
 ## Troubleshooting
+### App can't be opened because it is from an unidentified developer
+This is an issue with permissions.
+
+Solution:
+
+http://osxdaily.com/2012/07/27/app-cant-be-opened-because-it-is-from-an-unidentified-developer/
+
 Please submit any issues [here](https://github.com/KendallPark/bb-sync/issues).
