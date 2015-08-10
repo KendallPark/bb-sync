@@ -2,4 +2,7 @@ source 'https://rubygems.org'
 
 gem 'mechanize'
 
-gem 'pry'
+group :development do
+  gem 'pry'
+  gem 'rake'
+end

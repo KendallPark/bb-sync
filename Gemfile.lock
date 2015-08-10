@@ -4,6 +4,7 @@ GEM
     coderay (1.1.0)
     domain_name (0.5.24)
       unf (>= 0.0.5, < 1.0.0)
+    ffi (1.9.10-java)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     mechanize (2.7.3)
@@ -20,25 +21,37 @@ GEM
     mini_portile (0.6.2)
     net-http-digest_auth (1.4)
     net-http-persistent (2.9.4)
-    nokogiri (1.6.6.2)
+    nokogiri (1.6.4.1)
       mini_portile (~> 0.6.0)
+    nokogiri (1.6.4.1-java)
     ntlm-http (0.1.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry (0.10.1-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    rake (10.4.2)
     slop (3.6.0)
+    spoon (0.0.4)
+      ffi
     unf (0.1.4)
       unf_ext
+    unf (0.1.4-java)
     unf_ext (0.0.7.1)
     webrobots (0.1.1)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
   mechanize
   pry
+  rake
 
 BUNDLED WITH
-   1.10.4
+   1.10.6
