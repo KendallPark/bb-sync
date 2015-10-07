@@ -10,7 +10,7 @@ Sorry, Mac-only support right now. I don't have a Windows machine to test this o
 ## Installation
 
 1. Download the latest version of BBSync for your OS:
-  - [Mac OSX] (https://github.com/KendallPark/bb-sync/raw/master/dist/BBSync-0.0.2-osx.tar.gz) (0.0.2)
+  - [Mac OSX] (https://github.com/KendallPark/bb-sync/raw/master/dist/BBSync-0.0.3-osx.tar.gz) (0.0.3)
   - [Windows](https://github.com/KendallPark/bb-sync/raw/master/dist/BBSync-0.0.1-osx.tar.gz)
 2. Open the folder.
 3. Open the `config.yml` file in a plain text editor (like TextEdit).
