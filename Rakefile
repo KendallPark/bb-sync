@@ -2,7 +2,7 @@
 require 'bundler/setup'
 
 PACKAGE_NAME = "BBSync"
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 TRAVELING_RUBY_VERSION = "20150210-2.1.5"
 
 desc "Package your app"
