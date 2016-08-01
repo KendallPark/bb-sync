@@ -3,14 +3,14 @@ Ruby scraper for Mizzou Med School Blackboard content.
 
 ## OS Support
 - Mac OSX
-- Windows??? (COULD BE COMPLETELY BROKEN WHO KNOWS)
+- No windows sorry!
 
 Sorry, Mac-only support right now. I don't have a Windows machine to test this on. If you need a Linux version, [just ask](https://github.com/KendallPark/bb-sync/issues).
 
 ## Installation
 
 1. Download the latest version of BBSync for your OS:
-  - [Mac OSX] (https://github.com/KendallPark/bb-sync/raw/master/dist/BBSync-0.0.5-osx.tar.gz) (0.0.5)
+  - [Mac OSX] (https://github.com/KendallPark/bb-sync/raw/master/dist/BBSync-0.0.6-osx.tar.gz) (0.0.6)
 2. Open the folder.
 3. Open the `config.yml` file in a plain text editor (like TextEdit).
 4. Fill in your Mizzou pawprint and password. Save the file.
