@@ -17,8 +17,12 @@ class Scraper
 
       COURSE_SCHEMA.each do |course_name, course|
         course["sections"].each do |section_name, section|
-          section_url = "https://bblearn.missouri.edu/webapps/blackboard/content/listContent.jsp?course_id=#{course['course_id']}&content_id=#{section['content_id']}"
-          scrape_section section_url, [course_name, section_name], save_dir
+          begin
+            section_url = "https://bblearn.missouri.edu/webapps/blackboard/content/listContent.jsp?course_id=#{course['course_id']}&content_id=#{section['content_id']}"
+            scrape_section section_url, [course_name, section_name], save_dir
+          rescue Mechanize::ResponseCodeError
+            break
+          end
         end
       end
     end

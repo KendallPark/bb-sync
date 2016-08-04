@@ -1,18 +1,18 @@
-# "Medicine M1":
-#   course_id: _6461_1
-#   sections:
-#     "Block 1 PBL":
-#       content_id: _274353_1
-#     "Block 1 IPC":
-#       content_id: _274354_1
-#     "Anatomy":
-#       content_id: _274351_1
+"Medicine M1":
+  course_id: _48773_1
+  sections:
+    "Block 1 PBL":
+      content_id: _2975394_1
+    "Block 1 IPC":
+      content_id: _2975399_1
+    "Anatomy":
+      content_id: _2975393_1
+    "ACE":
+      content_id: _2975398_1
 #     "Block 2 PBL":
 #       content_id: _274356_1
 #     "Block 2 IPC":
 #       content_id: _274357_1
-#     "ACE":
-#       content_id: _353809_1
 #     "Block 3 PBL":
 #       content_id: _274360_1
 #     "Block 3 IPC":
